@@ -1,11 +1,10 @@
 #intro{
-    height: calc(100vh- 4rem);
+    height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    justify-content: space-between
+    justify-content: space-between;
 
 }
 .bg{
@@ -28,22 +27,39 @@
     justify-content: center;
 }
 .hello{
-    font-size: 1.75rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
 }
 .introName{
     color: yellow;
 }
 .introPara{
     font-size: medium;
-    font-weight: 100;
+    font-weight: 200;
+    letter-spacing: 1px;
 
 }
 .btn{
     background: white;
     margin: 1rem 0;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
 
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.5rem;
+    height: 0.25rem;
+}
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
 }
