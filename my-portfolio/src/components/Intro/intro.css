@@ -47,11 +47,10 @@
     border-radius: 2rem;
 
 }
-.btnImg{
-    object-fit: cover;
-    margin: 0 0.5rem;
-    height: 0.25rem;
+.btn:hover{
+    background-color: yellow;
 }
+
 @media screen and (max-width:840px) {
     .bg{
         right: -10vw;
@@ -62,4 +61,10 @@
     .hello{
         font-size: 4.5vw;
     }
+}
+@media screen and (max-width:480px) {
+    .bg{
+        right: -20vw;
+    }
+   
 }

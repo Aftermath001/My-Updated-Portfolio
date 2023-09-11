@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 import logo from '../../../assets/logo.jpg'
 import { Link } from 'react-scroll'
-import contactImg from '../../../assets/contact.jpg'
+
 
 
 
@@ -18,7 +18,8 @@ function Navbar() {
          <Link className='desktopMenuListItem'>Clients</Link>
       </div>
       <button className='desktopMenuBtn'>
-        <img src={contactImg} alt='' className='desktopMenuImg'/>Contact Me
+        <h3 className='desktopMenuImg'>Contact</h3>
+        
       </button>
     </nav>
   )
