@@ -5,6 +5,7 @@
 }
 .navbar {
     background: rgb(30, 30, 30);
+    max-width: 150rem;
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
